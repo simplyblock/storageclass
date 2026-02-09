@@ -5,7 +5,7 @@ import {Github} from 'lucide-react';
 const Header: React.FC = () => {
     return (
         <header
-            className="sticky top-0 z-10 bg-white dark:bg-gray-900 shadow-md px-4 py-3 transition-colors duration-200">
+            className="sticky top-0 z-10 border-b border-gray-200 bg-white/90 px-4 py-3 shadow-sm backdrop-blur dark:border-gray-800 dark:bg-gray-900/90 transition-colors duration-200">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center space-x-6">
                     <NavLink to="/" className="flex items-center space-x-2">
@@ -13,39 +13,39 @@ const Header: React.FC = () => {
                             StorageClass.info
                         </p>
                         <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded-md font-medium">
-              CSI Drivers
-            </span>
+                            CSI Driver List
+                        </span>
                     </NavLink>
 
-                    <nav className="hidden md:flex space-x-4">
+                    <nav className="hidden md:flex items-center space-x-2">
                         <NavLink
                             to="/drivers"
                             className={({isActive}) =>
-                                `text-sm ${isActive
-                                    ? 'text-blue-600 dark:text-blue-400'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                `text-sm font-semibold px-3 py-2 rounded-lg transition ${isActive
+                                    ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200'
+                                    : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white'
                                 }`
                             }
                         >
-                            Drivers
+                            CSI Driver List
                         </NavLink>
                         <NavLink
                             to="/storage-class"
                             className={({isActive}) =>
-                                `text-sm ${isActive
-                                    ? 'text-blue-600 dark:text-blue-400'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                `text-sm px-3 py-2 rounded-lg transition ${isActive
+                                    ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200'
+                                    : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white'
                                 }`
                             }
                         >
-                            What is StorageClass?
+                            StorageClass
                         </NavLink>
                         <NavLink
                             to="/glossary"
                             className={({isActive}) =>
-                                `text-sm ${isActive
-                                    ? 'text-blue-600 dark:text-blue-400'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                `text-sm px-3 py-2 rounded-lg transition ${isActive
+                                    ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200'
+                                    : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white'
                                 }`
                             }
                         >
@@ -54,9 +54,9 @@ const Header: React.FC = () => {
                         <NavLink
                             to="/sponsors"
                             className={({isActive}) =>
-                                `text-sm ${isActive
-                                    ? 'text-blue-600 dark:text-blue-400'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                `text-sm px-3 py-2 rounded-lg transition ${isActive
+                                    ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200'
+                                    : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white'
                                 }`
                             }
                         >

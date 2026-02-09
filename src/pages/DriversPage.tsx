@@ -90,8 +90,16 @@ const DriversPage: React.FC = () => {
     };
 
     setPageMetadata({
-        title: "CSI Driver List | Detailed Feature Overview for 150+ Plugins",
-        description: "Full index of CSI Drivers by technical spec. Use filters to match storage type, lifecycle support, and orchestration requirements."
+        title: "CSI Driver List | Compare Features Across Drivers",
+        description: "Browse the CSI driver list for Kubernetes. Filter CSI drivers by storage type, lifecycle support, and advanced capabilities.",
+        keywords: [
+            "CSI driver list",
+            "CSI drivers",
+            "Kubernetes storage",
+            "CSI plugins",
+            "Container Storage Interface",
+            "storage drivers"
+        ]
     });
 
     return (
