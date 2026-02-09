@@ -2449,7 +2449,7 @@ drivers:
   - name: simplyblock
     link: https://github.com/simplyblock-io/spdk-csi
     driverClass: csi.simplyblock.io
-    description: "CSI Driver for simplyblock's [disaggregated Elastic Block Storage](https://www.simplyblock.io) utilizing NVMe over TCP"
+    description: "CSI Driver for simplyblock's high-performance NVMe/TCP Kubernetes storage"
     lifecycleModes:
       persistent: true
     accessModes:
@@ -2463,7 +2463,7 @@ drivers:
       raw: true
       expansion: true
       clone: true
-      topology: false
+      topology: true
       tracking: false
       qos: true
       nvmeof: true
