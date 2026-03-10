@@ -1,6 +1,12 @@
 ---
 title: When to Use Kubernetes HostPath in Pods
 description: Kubernetes HostPath allows pods to access node-level file paths, offering flexibility with tradeoffs in security and portability.
+keywords:
+  - Kubernetes HostPath
+  - hostPath volume
+  - Kubernetes node storage
+  - pod host filesystem
+  - Kubernetes local volume
 ---
 
 # What is Kubernetes HostPath?

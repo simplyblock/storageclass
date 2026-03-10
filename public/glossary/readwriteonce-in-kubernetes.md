@@ -1,6 +1,12 @@
 ---
 title: What is ReadWriteOnce in Kubernetes
 description: ReadWriteOnce in Kubernetes supports controlled volume access, often used for monolithic apps or single-instance database containers.
+keywords:
+  - ReadWriteOnce Kubernetes
+  - RWO access mode
+  - Kubernetes volume access mode
+  - single node volume
+  - PVC access mode
 ---
 # What is ReadWriteOnce in Kubernetes?
 

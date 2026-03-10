@@ -1,6 +1,12 @@
 ---
 title: Kubernetes File Storage Overview
 description: Kubernetes File Storage provides shared, mountable file systems across pods using NFS, CSI drivers, or cloud-native file volumes.
+keywords:
+  - Kubernetes file storage
+  - NFS Kubernetes
+  - shared file storage Kubernetes
+  - ReadWriteMany storage
+  - Kubernetes NFS volume
 ---
 
 # What is Kubernetes File Storage?

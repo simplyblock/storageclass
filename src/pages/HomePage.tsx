@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {HardDrive, Database, Users, ExternalLink} from 'lucide-react';
+import {HardDrive, Database, Users, ExternalLink, BookOpen} from 'lucide-react';
 import {setPageMetadata} from "../utils/metadataUtils.js";
 
 const HomePage: React.FC = () => {
@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
                             StorageClass Basics
                         </Link>
                     </div>
-                    <div className="mt-8 grid grid-cols-2 gap-4 text-sm text-gray-600 dark:text-gray-300">
+                    <div className="mt-8 grid grid-cols-3 gap-4 text-sm text-gray-600 dark:text-gray-300">
                         <div className="rounded-lg border border-gray-200 bg-white/70 p-4 shadow-sm dark:border-gray-700 dark:bg-gray-900/60">
                             <div className="text-2xl font-semibold text-gray-900 dark:text-white">150+</div>
                             Drivers indexed
@@ -57,6 +57,10 @@ const HomePage: React.FC = () => {
                         <div className="rounded-lg border border-gray-200 bg-white/70 p-4 shadow-sm dark:border-gray-700 dark:bg-gray-900/60">
                             <div className="text-2xl font-semibold text-gray-900 dark:text-white">10+</div>
                             Capability filters
+                        </div>
+                        <div className="rounded-lg border border-gray-200 bg-white/70 p-4 shadow-sm dark:border-gray-700 dark:bg-gray-900/60">
+                            <div className="text-2xl font-semibold text-gray-900 dark:text-white">50+</div>
+                            Glossary articles
                         </div>
                     </div>
                 </div>
@@ -93,8 +97,14 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                 {[
+                    {
+                        icon: <HardDrive className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
+                        title: "CSI Drivers Directory",
+                        description: "Compare CSI drivers across features, vendors, and Kubernetes versions.",
+                        link: "/drivers",
+                    },
                     {
                         icon: <Database className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
                         title: "StorageClass Explained",
@@ -102,10 +112,10 @@ const HomePage: React.FC = () => {
                         link: "/storage-class",
                     },
                     {
-                        icon: <HardDrive className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
-                        title: "CSI Drivers Directory",
-                        description: "Compare CSI drivers across features, vendors, and Kubernetes versions.",
-                        link: "/drivers",
+                        icon: <BookOpen className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
+                        title: "Glossary",
+                        description: "Definitions for Kubernetes storage and CSI concepts, from PVC to NVMe-oF.",
+                        link: "/glossary",
                     },
                     {
                         icon: <Users className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
@@ -134,22 +144,28 @@ const HomePage: React.FC = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-                <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+                <Link to="/drivers" className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                     <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">
                         For Developers
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300">
+                    <p className="text-gray-600 dark:text-gray-300 mb-3">
                         Pinpoint CSI drivers for specific stacks, validate compatibility, and ship faster.
                     </p>
-                </div>
-                <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+                    <span className="text-sm font-semibold text-blue-700 group-hover:text-blue-800 dark:text-blue-300 dark:group-hover:text-blue-200">
+                        Browse drivers →
+                    </span>
+                </Link>
+                <Link to="/glossary" className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                     <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">
                         For Operations
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300">
+                    <p className="text-gray-600 dark:text-gray-300 mb-3">
                         Compare lifecycle support, access modes, and advanced capabilities before you deploy.
                     </p>
-                </div>
+                    <span className="text-sm font-semibold text-blue-700 group-hover:text-blue-800 dark:text-blue-300 dark:group-hover:text-blue-200">
+                        Explore glossary →
+                    </span>
+                </Link>
             </div>
 
             <div className="mt-16 rounded-2xl border border-blue-100 bg-blue-50 p-8 text-center shadow-sm dark:border-blue-900/40 dark:bg-blue-950/40">

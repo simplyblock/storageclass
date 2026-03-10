@@ -1,6 +1,12 @@
 ---
 title: How CSI Volume Cloning Works in Storage
 description: CSI Volume Cloning allows fast duplication of volumes in Kubernetes using the CSI spec and simplifies persistent storage workflows.
+keywords:
+  - CSI volume cloning
+  - Kubernetes volume clone
+  - CSI clone
+  - persistent volume clone
+  - Kubernetes storage
 ---
 
 # What is CSI Volume Cloning?

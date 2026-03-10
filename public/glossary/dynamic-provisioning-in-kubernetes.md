@@ -1,6 +1,12 @@
 ---
 title: Understanding Dynamic Provisioning in Kubernetes
 description: Dynamic Provisioning in Kubernetes automates storage allocation for pods, improving efficiency and reducing manual steps.
+keywords:
+  - dynamic provisioning Kubernetes
+  - Kubernetes storage provisioning
+  - CSI dynamic provisioning
+  - StorageClass provisioning
+  - Kubernetes persistent volume
 ---
 
 # What is Dynamic Provisioning in Kubernetes?

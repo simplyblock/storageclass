@@ -1,6 +1,12 @@
 ---
 title: What are Kubernetes Storage Options
 description: Kubernetes Storage Options include block, file, and object storage types, supported through CSI plugins and built-in volume drivers.
+keywords:
+  - Kubernetes storage options
+  - Kubernetes storage types
+  - block file object storage Kubernetes
+  - CSI plugins
+  - Kubernetes volume types
 ---
 # What are Kubernetes Storage Options?
 

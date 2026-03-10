@@ -1,6 +1,12 @@
 ---
 title: What is Logical Volume
 description: Logical Volume lets you resize, create, and manage disk partitions easily on Linux using the Logical Volume Manager tool.
+keywords:
+  - logical volume
+  - LVM
+  - Linux logical volume manager
+  - LVM Kubernetes
+  - volume group
 ---
 
 # What is Logical Volume?

@@ -1,6 +1,12 @@
 ---
 title: What a Helm Chart Does in Kubernetes
 description: Helm Chart simplifies deployment and scaling in Kubernetes by packaging app resources into manageable templates.
+keywords:
+  - Helm chart
+  - Kubernetes Helm
+  - Helm deployment
+  - Kubernetes package manager
+  - Helm templates
 ---
 # What is Helm Chart?
 

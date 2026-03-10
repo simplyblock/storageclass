@@ -1,6 +1,12 @@
 ---
 title: Benefits of Using iSCSI in Storage
 description: iSCSI is a storage protocol used to link data storage across networks, often used in virtual and cloud-based infrastructures.
+keywords:
+  - iSCSI
+  - iSCSI storage
+  - iSCSI Kubernetes
+  - block storage protocol
+  - SAN storage
 ---
 
 # What is iSCSI?

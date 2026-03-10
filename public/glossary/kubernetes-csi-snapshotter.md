@@ -1,6 +1,12 @@
 ---
 title: Kubernetes CSI Snapshotter for Volume Recovery
 description: Learn how Kubernetes CSI Snapshotter handles backup-ready volume snapshots in Kubernetes through external controllers.
+keywords:
+  - Kubernetes CSI snapshotter
+  - volume snapshot Kubernetes
+  - CSI snapshot
+  - Kubernetes backup snapshot
+  - VolumeSnapshot
 ---
 # What is Kubernetes CSI Snapshotter?
 

@@ -8,6 +8,7 @@ import StorageClassPage from './pages/StorageClassPage';
 import SponsorsPage from './pages/SponsorsPage';
 import GlossaryIndexPage from "./pages/GlossaryIndexPage.tsx";
 import GlossaryContentPage from "./pages/GlossaryContentPage.tsx";
+import NotFoundPage from "./pages/NotFoundPage.tsx";
 
 function App() {
     const [isDarkMode] = React.useState(() => {
@@ -31,6 +32,7 @@ function App() {
                             <Route path="/glossary" element={<GlossaryIndexPage/>}/>
                             <Route path="/glossary/:file" element={<GlossaryContentPage/>}/>
                             <Route path="/sponsors" element={<SponsorsPage/>}/>
+                            <Route path="*" element={<NotFoundPage/>}/>
                         </Routes>
                     </main>
 

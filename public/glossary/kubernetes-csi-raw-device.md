@@ -1,6 +1,12 @@
 ---
 title: Understanding Kubernetes CSI Raw Device Mode
 description: Kubernetes CSI Raw Device enables pods to mount storage volumes as raw block devices for performance-sensitive workloads.
+keywords:
+  - Kubernetes CSI raw device
+  - raw block volume Kubernetes
+  - block device mode CSI
+  - Kubernetes raw block
+  - CSI volumeMode
 ---
 # What is Kubernetes CSI Raw Device?
 

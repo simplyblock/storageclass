@@ -1,6 +1,12 @@
 ---
 title: How Kubernetes CSI Resizer Expands Volumes
 description: Kubernetes CSI Resizer works with volumeMode File and Block to scale storage transparently in running Kubernetes workloads.
+keywords:
+  - Kubernetes CSI resizer
+  - volume expansion CSI
+  - CSI external resizer
+  - Kubernetes volume resize
+  - PVC resize
 ---
 # What is Kubernetes CSI Resizer?
 

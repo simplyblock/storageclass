@@ -1,6 +1,12 @@
 ---
 title: What is Volume Health Monitoring
 description: Volume Health Monitoring supports event-based notifications in Kubernetes, allowing proactive response to storage failures.
+keywords:
+  - Kubernetes volume health monitoring
+  - CSI health monitor
+  - volume health check
+  - storage failure detection
+  - Kubernetes storage events
 ---
 
 # What is Volume Health Monitoring?

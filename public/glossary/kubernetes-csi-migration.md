@@ -1,6 +1,12 @@
 ---
 title: Kubernetes CSI Migration for In-Tree Plugins
 description: Kubernetes CSI Migration moves in-tree storage plugins to external CSI drivers, improving modularity and maintainability.
+keywords:
+  - Kubernetes CSI migration
+  - in-tree plugin migration
+  - CSI migration
+  - Kubernetes storage migration
+  - storage plugin migration
 ---
 # What is Kubernetes CSI Migration?
 

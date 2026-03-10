@@ -1,6 +1,12 @@
 ---
 title: What is a Storage Class
 description: Storage Class allows you to control volume features in Kubernetes, including access modes, performance tiers, and provisioning rules.
+keywords:
+  - StorageClass Kubernetes
+  - Kubernetes storage class
+  - dynamic provisioning StorageClass
+  - CSI StorageClass
+  - Kubernetes provisioner
 ---
 # What is a Storage Class?
 

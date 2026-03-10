@@ -1,6 +1,12 @@
 ---
 title: What is ReadOnlyMany in Kubernetes
 description: ReadOnlyMany in Kubernetes is commonly used with NFS volumes to distribute data like binaries or config maps across multiple read-only pods.
+keywords:
+  - ReadOnlyMany Kubernetes
+  - ROX access mode
+  - Kubernetes volume access mode
+  - read-only volume Kubernetes
+  - NFS read-only
 ---
 # What is ReadOnlyMany in Kubernetes?
 

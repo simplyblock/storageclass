@@ -1,6 +1,12 @@
 ---
 title: What is Storage Quality of Services
 description: Storage Quality of Services enables administrators to control latency, throughput, and IOPS for persistent volume access.
+keywords:
+  - storage QoS
+  - Kubernetes storage quality of service
+  - IOPS limits Kubernetes
+  - throughput limits storage
+  - storage performance Kubernetes
 ---
 # What is Storage Quality of Services?
 

@@ -6,6 +6,7 @@ const StorageClassPage: React.FC = () => {
     setPageMetadata({
         title: "StorageClass Specification",
         description: "StorageClass defines classes of storage in Kubernetes. Covers dynamic provisioning, provisioner field, volume policies, and configuration options.",
+        keywords: ["StorageClass", "Kubernetes storage class", "dynamic provisioning", "Kubernetes storage", "CSI provisioner", "persistent volume"],
     });
 
     return (

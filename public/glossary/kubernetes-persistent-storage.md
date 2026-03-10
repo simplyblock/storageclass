@@ -1,6 +1,12 @@
 ---
 title: What Is Kubernetes Persistent Storage
 description: Kubernetes Persistent Storage supports volume retention and dynamic provisioning for long-term pod data storage in clusters.
+keywords:
+  - Kubernetes persistent storage
+  - PersistentVolume
+  - PVC Kubernetes
+  - Kubernetes data persistence
+  - durable storage Kubernetes
 ---
 # What is Kubernetes Persistent Storage?
 

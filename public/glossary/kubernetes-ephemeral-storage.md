@@ -1,6 +1,12 @@
 ---
 title: How Kubernetes Ephemeral Storage Works
 description: Kubernetes Ephemeral Storage supports short-lived data for pods, ideal for caches, buffers, and temporary build artifacts.
+keywords:
+  - Kubernetes ephemeral storage
+  - emptyDir Kubernetes
+  - temporary pod storage
+  - Kubernetes cache storage
+  - ephemeral volume
 ---
 # What is Kubernetes Ephemeral Storage?
 

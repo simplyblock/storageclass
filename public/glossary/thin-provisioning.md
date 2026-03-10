@@ -1,6 +1,12 @@
 ---
 title: What is Thin Provisioning
 description: Thin Provisioning is widely used in virtualized and containerized environments to optimize storage infrastructure and reduce waste.
+keywords:
+  - thin provisioning
+  - Kubernetes thin provisioning
+  - storage thin provision
+  - overcommit storage
+  - dynamic storage allocation
 ---
 # What is Thin Provisioning?
 
