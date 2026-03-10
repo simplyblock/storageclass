@@ -1,6 +1,12 @@
 ---
 title: What is Storage Virtualization
 description: Storage Virtualization increases agility by allowing flexible expansion, migration, and load balancing of storage resources.
+keywords:
+  - storage virtualization
+  - virtual storage Kubernetes
+  - software-defined storage
+  - storage abstraction
+  - storage pooling
 ---
 # What is Storage Virtualization?
 

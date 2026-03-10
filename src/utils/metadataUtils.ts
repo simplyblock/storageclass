@@ -54,7 +54,7 @@ export function setPageMetadata(metadata: PageMetadata) {
         setMetaTag("name", "keywords", metadata.keywords.join(", "));
     }
 
-    const canonicalUrl = metadata.canonicalUrl ?? window.location.href;
+    const canonicalUrl = metadata.canonicalUrl ?? (window.location.origin + window.location.pathname);
     setCanonicalTag(canonicalUrl);
     setMetaTag("property", "og:url", canonicalUrl);
 

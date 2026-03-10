@@ -1,6 +1,12 @@
 ---
 title: What is NVMe over Fabrics
 description: Learn how NVMe over Fabrics improves storage speed and flexibility using protocols like RDMA or TCP across networked devices.
+keywords:
+  - NVMe over Fabrics
+  - NVMe-oF
+  - NVMe fabric storage
+  - high performance storage network
+  - RDMA storage
 ---
 # What is NVMe over Fabrics?
 

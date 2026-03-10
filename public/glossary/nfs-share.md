@@ -1,6 +1,12 @@
 ---
 title: What is NFS Share
 description: An NFS Share lets multiple systems access the same file directory over a network using the Network File System protocol.
+keywords:
+  - NFS share
+  - NFS Kubernetes
+  - network file system
+  - NFS volume
+  - shared storage NFS
 ---
 # What is NFS Share?
 

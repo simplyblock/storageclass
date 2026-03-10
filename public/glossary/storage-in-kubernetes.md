@@ -1,6 +1,12 @@
 ---
 title: What is Storage in Kubernetes
 description: Storage in Kubernetes enables reliable access to external or internal volumes through persistent, ephemeral, or shared mounts.
+keywords:
+  - storage in Kubernetes
+  - Kubernetes volumes overview
+  - Kubernetes storage concepts
+  - persistent ephemeral storage
+  - Kubernetes data management
 ---
 # What is Storage in Kubernetes?
 

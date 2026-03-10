@@ -1,6 +1,12 @@
 ---
 title: How Kubernetes Block Storage Works
 description: Understand Kubernetes Block Storage and its role in managing persistent, high-performance volumes for critical applications.
+keywords:
+  - Kubernetes block storage
+  - Kubernetes persistent block volume
+  - CSI block storage
+  - block device Kubernetes
+  - Kubernetes storage
 ---
 # What is Kubernetes Block Storage?
 

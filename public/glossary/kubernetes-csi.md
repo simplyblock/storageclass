@@ -1,6 +1,12 @@
 ---
 title: How Kubernetes CSI Improves Storage
 description: Kubernetes CSI provides a consistent framework for handling volume lifecycle across cloud, on-prem, and hybrid deployment.
+keywords:
+  - Kubernetes CSI
+  - container storage interface
+  - Kubernetes storage driver
+  - CSI plugin
+  - Kubernetes volume
 ---
 # What is Kubernetes CSI?
 

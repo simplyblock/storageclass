@@ -1,6 +1,12 @@
 ---
 title: What is XFS
 description: XFS is widely used in enterprise environments for workloads that demand fast access, reliability, and large volume support.
+keywords:
+  - XFS file system
+  - XFS Kubernetes
+  - Linux XFS
+  - high performance file system
+  - enterprise Linux filesystem
 ---
 # What is XFS?
 

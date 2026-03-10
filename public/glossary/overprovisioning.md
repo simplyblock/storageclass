@@ -1,6 +1,12 @@
 ---
 title: What is Overprovisioning
 description: Overprovisioning improves IOPS and reduces latency by giving SSD controllers space to manage background operations.
+keywords:
+  - overprovisioning storage
+  - SSD overprovisioning
+  - storage IOPS optimization
+  - NVMe overprovisioning
+  - disk performance tuning
 ---
 # What is Overprovisioning?
 

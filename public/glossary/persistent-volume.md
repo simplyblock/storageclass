@@ -1,6 +1,12 @@
 ---
 title: What is Persistent Volume
 description: Persistent Volume simplifies storage management in Kubernetes by providing an abstraction over physical or cloud disks.
+keywords:
+  - PersistentVolume
+  - PV Kubernetes
+  - Kubernetes persistent storage
+  - Kubernetes volume abstraction
+  - PV PVC Kubernetes
 ---
 # What is Persistent Volume?
 

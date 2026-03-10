@@ -1,6 +1,12 @@
 ---
 title: What is Persistent Volume Claim
 description: Persistent Volume Claim allows pods to request storage with specific size and access modes from available volume pools.
+keywords:
+  - PersistentVolumeClaim
+  - PVC Kubernetes
+  - Kubernetes storage request
+  - persistent volume claim
+  - Kubernetes volume binding
 ---
 # What is Persistent Volume Claim?
 

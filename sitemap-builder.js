@@ -43,7 +43,7 @@ function getDynamicPages(basePath) {
 
 const pages = [...staticPages, ...getDynamicPages("public/glossary")];
 
-let sitemap = "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n";
+let sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n";
 for (let item of pages) {
   const timestamp = getGitTimestamp(item.source);
   sitemap += `<url>\n<loc>https://storageclass.info${item.path}</loc>\n<lastmod>${timestamp}</lastmod>\n</url>\n`

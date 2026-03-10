@@ -1,6 +1,12 @@
 ---
 title: Key Functions of Kubernetes CSI Provisioner
 description: Kubernetes CSI Provisioner is a sidecar container that enables dynamic provisioning using CSI-compliant storage backends.
+keywords:
+  - Kubernetes CSI provisioner
+  - CSI external provisioner
+  - dynamic provisioning sidecar
+  - CSI sidecar container
+  - Kubernetes storage provisioner
 ---
 # What is Kubernetes CSI Provisioner?
 

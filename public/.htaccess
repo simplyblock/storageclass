@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 Redirect 301 "/csidrivers" "/drivers"
-RewriteBase /subdirectory
+RewriteBase /
 RewriteRule ^index\.html$ - [L]
 
 RewriteRule glossary/?$ /index.html [L]

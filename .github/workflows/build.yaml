@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: '${{ github.token }}'
+          fetch-depth: 0
       - name: Build storageclass.info
         run: |
           sudo apt install -y npm

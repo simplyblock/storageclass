@@ -1,6 +1,12 @@
 ---
 title: Simple Guide to Kubernetes Local Storage
 description: Kubernetes Local Storage is ideal for apps requiring fast disk I/O and persistent data on specific nodes in the cluster.
+keywords:
+  - Kubernetes local storage
+  - local persistent volume
+  - Kubernetes node-local storage
+  - local volume provisioner
+  - Kubernetes disk
 ---
 
 # What is Kubernetes Local Storage?

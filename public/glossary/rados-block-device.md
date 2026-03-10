@@ -1,6 +1,12 @@
 ---
 title: What is Rados Block Device (RBD)
 description: RADOS Block Device (RBD) is a Ceph storage feature that provides block-level access to distributed storage clusters.
+keywords:
+  - RADOS block device
+  - RBD
+  - Ceph RBD
+  - Ceph block storage
+  - Kubernetes Ceph storage
 ---
 # What is Rados Block Device (RBD)?
 

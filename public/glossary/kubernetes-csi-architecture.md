@@ -1,6 +1,12 @@
 ---
 title: Kubernetes CSI Architecture for Scalability
 description: Kubernetes CSI Architecture enables fast, cloud-agnostic storage operations via modular drivers and decoupled control flows.
+keywords:
+  - Kubernetes CSI architecture
+  - CSI plugin architecture
+  - container storage interface architecture
+  - CSI sidecar
+  - Kubernetes storage driver
 ---
 
 # What is Kubernetes CSI Architecture?

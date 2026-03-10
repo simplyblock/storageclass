@@ -1,6 +1,12 @@
 ---
 title: What is Static Provisioning in Kubernetes
 description: Static Provisioning in Kubernetes is suitable for storage environments where dynamic provisioning is unsupported or unnecessary.
+keywords:
+  - static provisioning Kubernetes
+  - pre-provisioned volume
+  - Kubernetes manual provisioning
+  - PersistentVolume static
+  - Kubernetes storage provisioning
 ---
 # What is Static Provisioning in Kubernetes?
 

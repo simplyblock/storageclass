@@ -1,6 +1,12 @@
 ---
 title: What is Kubernetes Volume Expansion
 description: Kubernetes Volume Expansion allows resizing of PersistentVolumes using PVC updates and supported CSI or in-tree drivers.
+keywords:
+  - Kubernetes volume expansion
+  - PVC resize Kubernetes
+  - expand PersistentVolume
+  - CSI volume resize
+  - Kubernetes storage resize
 ---
 # What is Kubernetes Volume Expansion?
 

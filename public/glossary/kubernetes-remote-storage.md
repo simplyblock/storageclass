@@ -1,6 +1,12 @@
 ---
 title: What Is Kubernetes Remote Storage
 description: Kubernetes Remote Storage helps teams share data between pods and clusters using external storage like NFS or object stores.
+keywords:
+  - Kubernetes remote storage
+  - network-attached storage Kubernetes
+  - NFS Kubernetes
+  - remote volume Kubernetes
+  - Kubernetes shared storage
 ---
 # What is Kubernetes Remote Storage?
 

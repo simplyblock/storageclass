@@ -35,7 +35,7 @@ const GlossaryIndexPage: React.FC = () => {
             </h1>
             <div className="prose dark:prose-invert max-w-none">
                 <div className="bg-white dark:bg-gray-800 rounded-lg p-6 mb-8">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Topics</h3>
+                    <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Topics</h2>
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
                         Find all topics around the Kubernetes Container Storage Interface (CSI) in the glossary.
                     </p>

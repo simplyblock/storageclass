@@ -4,7 +4,8 @@ import {setPageMetadata} from "../utils/metadataUtils.js";
 const SponsorsPage: React.FC = () => {
     setPageMetadata({
         title: "Storageclass.info Sponsors",
-        description: "Thank you to Simplyblock for sponsoring the domain and webspace for storageclass.info."
+        description: "Thank you to Simplyblock for sponsoring the domain and webspace for storageclass.info.",
+        keywords: ["StorageClass.info sponsors", "Simplyblock", "Kubernetes storage sponsor"],
     })
 
     return (

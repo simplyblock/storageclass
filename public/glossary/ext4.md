@@ -1,6 +1,12 @@
 ---
 title: ext4 File System Overview and Features
 description: ext4 is a journaling file system used in Linux that offers improved performance, reliability, and support for large files.
+keywords:
+  - ext4 file system
+  - Linux ext4
+  - ext4 Kubernetes
+  - journaling file system
+  - Linux file system
 ---
 
 # What is ext4?

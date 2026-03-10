@@ -1,6 +1,12 @@
 ---
 title: What is ReadWriteMany in Kubernetes
 description: ReadWriteMany in Kubernetes supports concurrent access by many pods to one volume, simplifying shared storage management in clusters.
+keywords:
+  - ReadWriteMany Kubernetes
+  - RWX access mode
+  - Kubernetes shared volume
+  - multi-pod volume access
+  - NFS ReadWriteMany
 ---
 # What is ReadWriteMany in Kubernetes?
 

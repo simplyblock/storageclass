@@ -1,6 +1,12 @@
 ---
 title: CSI Driver Basics and Key Concepts Explained
 description: CSI Driver simplifies container storage in Kubernetes and is a key tool for managing dynamic volumes in DevOps workflows.
+keywords:
+  - CSI driver
+  - Kubernetes CSI
+  - container storage interface
+  - storage driver
+  - Kubernetes storage
 ---
 
 # What is a CSI Driver?

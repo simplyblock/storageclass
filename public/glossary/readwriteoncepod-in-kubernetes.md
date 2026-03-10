@@ -1,6 +1,12 @@
 ---
 title: What is ReadWriteOncePod in Kubernetes
 description: ReadWriteOncePod in Kubernetes is ideal for cases that require strict volume control and exclusive access on a per-pod basis.
+keywords:
+  - ReadWriteOncePod Kubernetes
+  - RWOP access mode
+  - exclusive pod volume
+  - Kubernetes pod storage isolation
+  - PVC single pod access
 ---
 # What is ReadWriteOncePod in Kubernetes?
 

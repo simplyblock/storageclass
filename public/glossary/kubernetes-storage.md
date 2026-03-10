@@ -1,6 +1,12 @@
 ---
 title: What is Kubernetes Storage
 description: Kubernetes Storage supports dynamic provisioning and durable volume management using PVCs and CSI-compatible storage drivers.
+keywords:
+  - Kubernetes storage
+  - Kubernetes volumes
+  - persistent volume Kubernetes
+  - CSI Kubernetes
+  - Kubernetes data storage
 ---
 
 # What is Kubernetes Storage?

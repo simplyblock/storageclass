@@ -1,6 +1,12 @@
 ---
 title: How GlusterFS Handles Distributed Storage
 description: Learn how GlusterFS enables distributed file storage across multiple servers with flexibility and redundancy.
+keywords:
+  - GlusterFS
+  - distributed file storage
+  - GlusterFS Kubernetes
+  - network file storage
+  - open source storage
 ---
 
 # What is GlusterFS?

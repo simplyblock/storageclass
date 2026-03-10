@@ -1,6 +1,12 @@
 ---
 title: What is NVMe over RoCE
 description: NVMe over RoCE is ideal for data-heavy applications that require consistent, high throughput and near-local latency.
+keywords:
+  - NVMe over RoCE
+  - RoCE storage
+  - RDMA over Converged Ethernet
+  - NVMe-oF RoCE
+  - high performance block storage
 ---
 # What is NVMe over RoCE?
 

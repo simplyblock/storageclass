@@ -1,6 +1,12 @@
 ---
 title: What Is Kubernetes Object Storage
 description: Kubernetes Object Storage lets apps store unstructured data like images and logs using S3-compatible or cloud-native backends.
+keywords:
+  - Kubernetes object storage
+  - S3 Kubernetes
+  - object storage CSI
+  - Kubernetes blob storage
+  - cloud object storage
 ---
 # What is Kubernetes Object Storage?
 

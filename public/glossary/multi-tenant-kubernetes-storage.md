@@ -1,6 +1,12 @@
 ---
 title: What is Multi-tenant Kubernetes Storage
 description: Multi-tenant Kubernetes Storage is designed to keep each tenant’s data isolated while sharing infrastructure in a single cluster.
+keywords:
+  - multi-tenant Kubernetes storage
+  - Kubernetes storage isolation
+  - namespace storage Kubernetes
+  - tenant storage isolation
+  - Kubernetes multi-tenancy
 ---
 # What is Multi-tenant Kubernetes Storage?
 
